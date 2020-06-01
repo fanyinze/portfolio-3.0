@@ -1,0 +1,54 @@
+.about-me {
+  width: 50%;
+  margin: 0 auto 100px;
+  display: table;
+
+  h3 {
+    color: #444649;
+    font-size: $s-title;
+    font-weight: 1000;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 100px 0 20px;
+    margin: 0 0 5px 0;
+  }
+}
+
+.avatar-image {
+  display: flex;
+  margin: 0 auto;
+  max-width: 780px;
+  align-items: center;
+  justify-content: space-around;
+  background: url('../../img/avatar.png');
+  background-size: cover;
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+}
+
+.bar-black {
+  width: 100px;
+  height: 0px;
+  border-top: 4px solid #444649;
+  margin: 0 auto 100px;
+}
+
+.intro-container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 40%;
+  float: left;
+}
+
+.intro {
+  margin: 0;
+}
+
+.skill-bar-container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 40%;
+  float: right;
+}
+

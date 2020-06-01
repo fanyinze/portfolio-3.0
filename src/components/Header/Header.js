@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './style/Header.module.css'
-import HeaderBackground from './HeaderBackground/HeaderBackground';
+import HeaderBackground from './HeaderBackground';
 
 const Header = () => {
   return (
