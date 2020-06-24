@@ -1,4 +1,6 @@
-const experienceItems = [
+const { getDefaultNormalizer } = require("@testing-library/react");
+
+const experienceData = [
   {
     type: "work",
     company: "Veeva System",
@@ -28,4 +30,6 @@ const experienceItems = [
     skills: [],
   },
 ];
-export default experienceItems;
+
+
+export default experienceData;

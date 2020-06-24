@@ -4,7 +4,7 @@ import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 
 const contentStyle = {
-  background: "#f5f5f5",
+  background: "#fff",
   color: "#555",
   border: "2px solid #898b8d",
 };

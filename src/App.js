@@ -1,8 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Header from "./components/Header";
+import Project from "./components/Project";
+
 import "./App.scss";
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
             <Header />
             <AboutMe />
             <Experience />
+            <Project />
             <Contact />
         </React.Fragment>
     );

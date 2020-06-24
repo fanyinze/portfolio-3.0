@@ -1,5 +1,6 @@
-import data from "./data";
+import expData from './expData';
+import projectData from './projectData';
 
-export default data; 
+export {expData, projectData}; 
 
 
