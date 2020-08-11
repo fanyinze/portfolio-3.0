@@ -14,7 +14,8 @@ const Project = () => {
           {projectData.map((data) => {
             return (
               <ProjectItem
-                name={data.name}
+                label={data.label}
+                sublabel={data.sublabel}
                 image={data.image}
                 href={data.url}
               />

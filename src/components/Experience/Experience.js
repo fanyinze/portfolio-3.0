@@ -16,6 +16,7 @@ const Experience = () => {
                 type={element.type}
                 company={element.company}
                 position={element.position}
+                date={element.date}
                 description={element.description}
                 skills={element.skills}
               />
