@@ -1,0 +1,37 @@
+.navbar-container {
+  align-items: center;
+  background: #1b242f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 3px solid #f9ab48;
+
+  ul {
+    background: none;
+    display: inline;
+    overflow: visible;
+    padding: 0;
+    position: initial;
+    text-align: left;
+    width: 50%;
+  }
+
+  li {
+    color: #fff;
+    display: inline;
+    font-weight: 500;
+    margin-right: 40px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-out;
+
+    &:hover {
+      color: #ff9300;
+      transition: color 0.3s ease;
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar-container ul {
+    width: 75%;
+  }
+}

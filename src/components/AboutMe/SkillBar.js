@@ -7,7 +7,7 @@ const SkillBar = (props) => {
     display: "inline-block",
     height: "28px",
     lineHeight: "28px",
-    width: "80%",
+    width: "70%",
     backgroundColor: "#e0e0de",
     margin: "0 0 12px 0px",
   };
@@ -35,7 +35,7 @@ const SkillBar = (props) => {
     fontWeight: "bold",
     height: "28px",
     lineHeight: "28px",
-    width: "20%",
+    width: "30%",
     textAlign: "center",
     verticalAlign: "middle",
   };
