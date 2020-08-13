@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-scroll";
 import MenuIcon from "@material-ui/icons/Menu";
+import NavItems from "./NavItems";
 
 const showNavItems = () => {
   document.getElementById("nav-dropdown").classList.toggle("show");
@@ -27,61 +27,7 @@ const NavbarDropdown = () => {
       <div id='nav-dropdown' className='dropdown-content'>
         <nav>
           <ul>
-            <li>
-              <Link
-                activeClass='active'
-                to='home'
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass='active'
-                to='aboutMe'
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                About Me
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass='active'
-                to='experience'
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Experience
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass='active'
-                to='project'
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Project
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass='active'
-                to='contact'
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li>
+           <NavItems />
           </ul>
         </nav>
       </div>

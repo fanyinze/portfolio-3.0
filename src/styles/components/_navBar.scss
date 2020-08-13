@@ -20,9 +20,10 @@
     color: #fff;
     display: inline;
     font-weight: 500;
-    margin-right: 40px;
+    margin-right: 20px;
     text-transform: uppercase;
     transition: color 0.3s ease-out;
+    cursor: pointer;
 
     &:hover {
       color: #ff9300;
@@ -30,6 +31,22 @@
     }
   }
 }
+
+.nav-resume {
+    color: #f9ab48;
+    display: inline;
+    font-weight: 500;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+
+    &:hover {
+      color: #ff9300;
+      transition: color 0.3s ease;
+    }
+}
+
 @media only screen and (min-width: 992px) {
   .navbar-container ul {
     width: 75%;
