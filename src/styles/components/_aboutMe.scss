@@ -1,14 +1,18 @@
+.avatar {
+  margin-bottom: 24px;
+}
+
 .avatar-image {
+  box-shadow: 0 10px 6px -6px black;
   display: flex;
   margin: 0 auto;
-  max-width: 780px;
   align-items: center;
   justify-content: space-around;
   background: url("../../img/avatar.png");
-  background-size: cover;
   border-radius: 50%;
-  height: 128px;
-  width: 128px;
+  background-size: cover;
+  height: 144px;
+  width: 144px;
 }
 
 .intro-container {
@@ -19,7 +23,9 @@
 }
 
 .intro {
+  line-height: 24px;
   margin: 0;
+  text-align: center;
 }
 
 .skill-bar-container {

@@ -1,5 +1,6 @@
 import React from "react";
 import SkillBar from "./SkillBar";
+import resume from "../NavBar/assets/resume.pdf";
 
 const skillData = [
   { category: "React", bgcolor: "#f9ab48", percentage: 90 },
@@ -22,15 +23,17 @@ const AboutMe = () => {
             <div className='avatar-image'></div>
           </div>
           <div className='intro'>
-            <p>
-              <strong>I am Yinze Fan and I am a computer engineer.</strong>I
-              graduated from University of Toronto. My favorite subjects at
-              university were all the ones related with software development.
-              The main reason I am passionate about developing is that I can
-              leverage my creativity, because there are so many ways to achieve
-              the same goal when you code a software and I like to find the
-              optimal one for each scenario
-            </p>
+            I am a full stack developer for
+            <a class='highlight' href='https://www.veeva.com/' target='_blank'> Veeva </a>
+            in Toronto.
+            <br />
+            I am passionate about software development because there are so many
+            ways to achieve the same goal and I like to find the optimal one for
+            each scenario.
+            <br />
+            <a href={resume} className='highlight' target='_blank'>
+              Learn more about me
+            </a>
           </div>
         </div>
         <div className='skill-bar-container'>
