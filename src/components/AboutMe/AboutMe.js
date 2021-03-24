@@ -1,6 +1,6 @@
 import React from "react";
 import SkillBar from "./SkillBar";
-import resume from "../NavBar/assets/resume.pdf";
+import resume from "../NavBar/assets/resume.docx";
 
 const skillData = [
   { category: "React", bgcolor: "#f9ab48", percentage: 90 },
