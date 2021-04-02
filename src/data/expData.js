@@ -4,7 +4,7 @@ const experienceData = [
   {
     type: "work",
     company: "Veeva System",
-    position: "Associate Software Engineer",
+    position: "Software Engineer",
     date: "2018 - Present",
     description:
       "I worked in the Veeva Claims application team. Our objective was to provide marketing claim management solution for consumer products and cosmetic vertical.",
@@ -30,6 +30,5 @@ const experienceData = [
     skills: [],
   },
 ];
-
 
 export default experienceData;
