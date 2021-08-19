@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-scroll";
-import resume from "./assets/resume.docx";
+import resume from "./assets/resume.pdf";
 
 const NavItems = () => {
   return (
