@@ -19,6 +19,7 @@ const Experience = () => {
                 date={element.date}
                 description={element.description}
                 skills={element.skills}
+                themeColor={element.themeColor}
               />
             );
           })}

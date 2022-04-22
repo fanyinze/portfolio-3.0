@@ -10,7 +10,7 @@ const Header = () => {
           <div>
             Hello, I'm <span className='highlight'>Yinze Fan</span>.
             <br />
-            I'm a full-stack developer
+            I'm a software developer
           </div>
         </div>
       </div>

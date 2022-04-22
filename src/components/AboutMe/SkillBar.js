@@ -28,7 +28,7 @@ const SkillBar = (props) => {
   };
 
   const categoryStyles = {
-    background: "#ff9300",
+    background: "#0061fe",
     color: "#ffffff",
     display: "inline-block",
     float: "left",

@@ -13,31 +13,30 @@ const contentArrowStyle = {
   borderRight: "7px solid #898b8d",
 };
 
-const getIconStyle = (type) => {
+const getIconStyle = (iconColor) => {
   return {
-    background: getThemeColor(type),
+    background: iconColor,
     color: "#fff",
   };
 };
 
-const getThemeColor = (type) => (type === "work" ? "#FF9300" : "#00204E");
 const getThemeIcon = (type) =>
   type === "work" ? <WorkIcon /> : <SchoolIcon />;
 
 const ExpItem = (props) => {
-  const { type, company, position, date, description, skills } = props;
+  const { type, company, position, date, description, skills, themeColor } = props;
 
   return (
     <VerticalTimelineElement
       contentStyle={contentStyle}
       contentArrowStyle={contentArrowStyle}
       date={date}
-      iconStyle={getIconStyle(type)}
+      iconStyle={getIconStyle(themeColor)}
       icon={getThemeIcon(type)}
     >
       <h3
         className='vertical-timeline-element-title'
-        style={{ color: getThemeColor(type) }}
+        style={{ color: themeColor }}
       >
         {company}
       </h3>
@@ -49,7 +48,7 @@ const ExpItem = (props) => {
           return (
             <span
               className='vertical-timeline-element-skills'
-              style={getIconStyle(type)}
+              style={getIconStyle(themeColor)}
             >
               {element}
             </span>

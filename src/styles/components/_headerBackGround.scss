@@ -14,7 +14,7 @@
 #orange {
   fill: none;
   opacity: 0.3;
-  stroke: #fcbf1e;
+  stroke: #F6F5E9;
   stroke-width: 12;
   stroke-miterlimit: 10;
   animation: show 4s;
@@ -26,7 +26,7 @@
 #blue {
   fill: none;
   opacity: 0.3;
-  stroke: #035aa6;
+  stroke: #96ACA3;
   stroke-width: 12;
   stroke-miterlimit: 10;
   animation: show 4s;
@@ -57,12 +57,12 @@
 
 @keyframes show {
   0% {
-    opacity: 0.01;
-  }
-  50% {
     opacity: 0.1;
   }
+  50% {
+    opacity: 0.3;
+  }
   100% {
-    opacity: 0.01;
+    opacity: 0.1;
   }
 }

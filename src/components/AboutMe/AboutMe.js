@@ -2,14 +2,15 @@ import React from "react";
 import SkillBar from "./SkillBar";
 import resume from "../NavBar/assets/resume.docx";
 
+const skillBarBgColor = "#007BE8"
 const skillData = [
-  { category: "Java", bgcolor: "#f9ab48", percentage: 90 },
-  { category: "React", bgcolor: "#f9ab48", percentage: 80 },
-  { category: "JavaScript", bgcolor: "#f9ab48", percentage: 80 },
-  { category: "HTML/CSS", bgcolor: "#f9ab48", percentage: 75 },
-  { category: "Node.js", bgcolor: "#f9ab48", percentage: 70 },
-  { category: "Python", bgcolor: "#f9ab48", percentage: 70 },
-  { category: "AWS", bgcolor: "#f9ab48", percentage: 65 },
+  { category: "Java", percentage: 90 },
+  { category: "React", percentage: 80 },
+  { category: "JavaScript", percentage: 80 },
+  { category: "Python", percentage: 80 },
+  { category: "HTML/CSS", percentage: 75 },
+  { category: "Go", percentage: 70 },
+  { category: "AWS", percentage: 65 },
 ];
 
 const AboutMe = () => {
@@ -24,7 +25,7 @@ const AboutMe = () => {
           </div>
           <div className='intro'>
             I am a full stack developer for
-            <a class='highlight' href='https://www.veeva.com/' target='_blank'> Veeva </a>
+            <a className='highlight' href='https://www.dropbox.com/home' target='_blank'> Dropbox </a>
             in Toronto.
             <br />
             I am passionate about software development because there are so many
@@ -41,7 +42,7 @@ const AboutMe = () => {
             <SkillBar
               key={idx}
               category={item.category}
-              color={item.bgcolor}
+              color={skillBarBgColor}
               percentage={item.percentage}
             />
           ))}
